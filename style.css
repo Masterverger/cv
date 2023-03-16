@@ -1,0 +1,57 @@
+/**************************TAG SELECTION********************************/
+body {
+	background-image: url(_DSC0018.jpg); /* the url is use to fatch the image*/
+	background-repeat: no-repeat; /*this is use if the image is been splited by the browser*/
+	}
+
+hr {
+	border-color: slateblue; /*use to give color to the put line*/
+	border-style: dotted none none; /*this is use to add styling to your out line it could be dotted and puting none means the height, width and other will not have value*/
+	border-width: 2px; /*border-width is the size of the outline*/
+	width: 30%;
+	}
+
+h1 {
+	color: slateblue; /*this is use to add color to text*/
+	font-size: 60px; /*text size can be set using this*/
+}
+
+img { 
+	border-radius: 100px;
+
+}
+
+/**************************CLASS SELECTION********************************/
+.Education {
+	background-image: url(6.jpg); /*background-image is the image that the written words will sit on*/
+	background-size: cover;
+	border-style: ridge;
+	color: rebeccapurple;
+	font-size: 60px;
+	width: 500px;
+	border-radius: 100px;
+}
+.Work {
+	background-image: url(34.jpg);
+	background-size: cover;
+	border-style: ridge;
+	color: mediumspringgreen;
+	font-size: 60px;
+	width: 400px;
+	border-radius: 90px;
+}
+.Skill {
+	background-image: url(34.jpg);
+	background-size: cover;
+	border-style: ridge;
+	color: mediumaquamarine;
+	font-size: 60px;
+	width: 400px;
+	border-radius: 100px;
+}
+/**************************ID SELECTION********************************/
+ #HEADING:hover {
+ 	color: slateblue; /*this is use to add color to text*/
+	font-size: 70px;
+	color: blue; 
+ }
